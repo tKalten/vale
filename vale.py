@@ -527,7 +527,7 @@ def _3d_plot(df, x, y, z):
 
 def main():
     in_path = os.getcwd() + "\\data"
-    out_path = os.getcwd() + "\\test"
+    out_path = os.getcwd() + "\\out_data"
     file_name = "testdata_1.csv"    # change this value in case of different test csv
     data = import_csv(file_name, in_path)
     df = pd.DataFrame(data[1:], columns=data[0])
@@ -550,7 +550,7 @@ def main():
     # count_outliers(df, "ACCELERATION_ms2_p")
     emission_model(df)
     #  _3d_plot(df, "VELOCITY_[km/h]_da_smoothed", "ACCELERATION_[m/s^2]_p_smoothed", "EMISSION_[g/s]_p")
-    save_csv("test.csv", out_path, df)
+    save_csv("out_data.csv", out_path, df)
     # print_df(df, 0, 4)
     plot_df(df, "VELOCITY_[km/h]_da_smoothed", "ACCELERATION_[m/s^2]_p_smoothed", "EMISSION_[g/s]_p")
 
