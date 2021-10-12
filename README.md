@@ -2,7 +2,7 @@
 
 Vale is an app developed to calculate emission values, accounting for acceleration and velocity. In this demonstration these values are derived from GPS data.
 
-Currently the output is CO<sub>2</sub> emission measured in [g/s]
+Currently the output is CO<sub>2</sub> emission measured in [g/s].
 
 
 ## Prerequisites
@@ -47,5 +47,5 @@ In case the calculated values need to be analyzed, the output can be found in `\
 The emission model in use is based on the paper [Modelling instantaneous traffic emission and the influence of traffic speed limits](https://www.sciencedirect.com/science/article/pii/S004896970600636X)
 by Luc Int Panis, Steven Broekx and Ronghui Liu.
 
-This project was developed by [Matteo Casamenti](@casamenti.matteo) and [Thomas Kaltenleitner](@koidn) as part of the course Intelligent Transport Systems (ITS) at KU Leuven.
+This project was developed by [Matteo Casamenti] and [Thomas Kaltenleitner](@koidn) as part of the course Intelligent Transport Systems (ITS) at KU Leuven.
 Special thanks to Chris Tampère, Sajid Raza and Mohammad Ali Arman who supported us in this process.
